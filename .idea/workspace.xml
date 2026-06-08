@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b74c7e-9043-4b1c-992f-faffe628abb1" name="更改" comment="">
       <changelist_data name="xeno" email="" automatic="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/xeno.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02/01input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02/02if.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02/03for.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02/04while.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day02/05猜随机数.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.01hello world.executor": "Run",
+    "Python.01input.executor": "Run",
+    "Python.02if.executor": "Run",
+    "Python.02name.executor": "Run",
+    "Python.03for.executor": "Run",
+    "Python.03变量.executor": "Run",
+    "Python.04while.executor": "Run",
+    "Python.04数据类型.executor": "Run",
     "Python.05 BMI计算器.executor": "Run",
+    "Python.05猜随机数.executor": "Run",
     "Python.06年龄计算器.executor": "Run",
     "Python.07工资计算器.executor": "Run",
     "Python.name.executor": "Run",
@@ -54,10 +62,11 @@
     "Python.变量.executor": "Run",
     "Python.数据类型.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "main"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -79,6 +88,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
