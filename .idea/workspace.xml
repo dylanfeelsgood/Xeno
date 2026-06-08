@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b74c7e-9043-4b1c-992f-faffe628abb1" name="更改" comment="">
       <changelist_data name="xeno" email="" automatic="false" />
-      <change afterPath="$PROJECT_DIR$/day03/01函数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/02列表和字典.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day03/03学生成绩管理系统/student_management.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/01return.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/02字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/03score_analytics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day04/04gemini score_ana_ai.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +32,10 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3EprWPJYSXNhukTRvNqDQ5ZHQPc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,10 +49,14 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.01hello world.executor": "Run",
     "Python.01input.executor": "Run",
+    "Python.01return.executor": "Run",
     "Python.02if.executor": "Run",
     "Python.02name.executor": "Run",
+    "Python.02字符串.executor": "Run",
     "Python.03for.executor": "Run",
+    "Python.03score_analytics.executor": "Run",
     "Python.03变量.executor": "Run",
+    "Python.04gemini score_ana_ai.executor": "Run",
     "Python.04while.executor": "Run",
     "Python.04数据类型.executor": "Run",
     "Python.05 BMI计算器.executor": "Run",
@@ -61,6 +66,7 @@
     "Python.name.executor": "Run",
     "Python.print something.executor": "Run",
     "Python.student_management.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.函数.executor": "Run",
     "Python.列表和字典.executor": "Run",
     "Python.变量.executor": "Run",
