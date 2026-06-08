@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b74c7e-9043-4b1c-992f-faffe628abb1" name="更改" comment="">
       <changelist_data name="xeno" email="" automatic="false" />
-      <change beforePath="$PROJECT_DIR$/day02/05猜随机数.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02/05猜随机数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/01函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/02列表和字典.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day03/03学生成绩管理系统/student_management.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,9 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8,
@@ -54,6 +60,9 @@
     "Python.07工资计算器.executor": "Run",
     "Python.name.executor": "Run",
     "Python.print something.executor": "Run",
+    "Python.student_management.executor": "Run",
+    "Python.函数.executor": "Run",
+    "Python.列表和字典.executor": "Run",
     "Python.变量.executor": "Run",
     "Python.数据类型.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -102,6 +111,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/day03/02列表和字典.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
