@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b74c7e-9043-4b1c-992f-faffe628abb1" name="更改" comment="">
       <changelist_data name="xeno" email="" automatic="false" />
-      <change afterPath="$PROJECT_DIR$/day02/01input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/02if.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/03for.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/04while.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02/05猜随机数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day02/05猜随机数.py" beforeDir="false" afterPath="$PROJECT_DIR$/day02/05猜随机数.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
