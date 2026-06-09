@@ -4,13 +4,16 @@ def input_scores():
     str_list = user_input.split()
     scores = []
     for item in str_list:
-        scores.append(float(item))
+        try:
+          scores.append(float(item))
+        except ValueError:
+          print(f"无效输入:{item}")
     print(f"成功输入了{len(scores)}个成绩！")
     return scores
 
 
 # 查询成绩的最大值 最小值 平均值
-def list_score(scores):
+def list_score_stats(scores):
     max_score = max(scores)
     min_score = min(scores)
     avg_score = sum(scores) / len(scores)
@@ -35,15 +38,13 @@ def count_grade(scores):
 
 
 # 展示菜单
-def display_result(score):
+def display_result(scores,stats,grade):
     print("\n --- 总体成绩分析报告 ---")
-    print(f"当前成绩列表:{score}")
-    max_score, min_score, avg_score = list_score(score)
-    print(f"max_score:{max_score},min_score:{min_score},avg_score:{avg_score}")
-
-    print("\n --- 评级分布 ---")
-    counts = count_grade(score)
-    for grade, count in counts.items():
+    print(f"当前成绩列表:{scores}")
+    max_score, min_score, avg_score = stats
+    print(f"最高分:{max_score},最低分:{min_score},平均分:{avg_score}")
+    print("\n ------  评级分布  ------")
+    for grade, count in grade.items():
         print(f"等级{grade}:{count}人")
     print("------------------------")
 
@@ -68,7 +69,7 @@ def main():
             if not global_scores:
                 print("❌ 当前没有任何成绩数据，请先选择 1 输入成绩！")
             else:
-             max_score, min_score, avg_score = list_score(global_scores)
+             max_score, min_score, avg_score = list_score_stats(global_scores)
              print(f"最高分:{max_score},最低分:{min_score},平均分:{avg_score}")
         elif choice == "3":
             if not global_scores:
@@ -80,7 +81,9 @@ def main():
             if not global_scores:
                 print("❌ 当前没有任何成绩数据，请先选择 1 输入成绩！")
             else:
-             display_result(global_scores)
+             stats = list_score_stats(global_scores)
+             grades = count_grade(global_scores)
+             display_result(global_scores,stats,grades)
         elif choice == "5":
             print("感谢使用，再见！")
             break

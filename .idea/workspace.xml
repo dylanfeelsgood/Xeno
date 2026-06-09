@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b74c7e-9043-4b1c-992f-faffe628abb1" name="更改" comment="">
       <changelist_data name="xeno" email="" automatic="false" />
-      <change afterPath="$PROJECT_DIR$/day04/01return.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/02字符串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/03score_analytics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04/04gemini score_ana_ai.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/03score_analytics.py" beforeDir="false" afterPath="$PROJECT_DIR$/day04/03score_analytics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,41 +41,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.01hello world.executor": "Run",
-    "Python.01input.executor": "Run",
-    "Python.01return.executor": "Run",
-    "Python.02if.executor": "Run",
-    "Python.02name.executor": "Run",
-    "Python.02字符串.executor": "Run",
-    "Python.03for.executor": "Run",
-    "Python.03score_analytics.executor": "Run",
-    "Python.03变量.executor": "Run",
-    "Python.04gemini score_ana_ai.executor": "Run",
-    "Python.04while.executor": "Run",
-    "Python.04数据类型.executor": "Run",
-    "Python.05 BMI计算器.executor": "Run",
-    "Python.05猜随机数.executor": "Run",
-    "Python.06年龄计算器.executor": "Run",
-    "Python.07工资计算器.executor": "Run",
-    "Python.name.executor": "Run",
-    "Python.print something.executor": "Run",
-    "Python.student_management.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.函数.executor": "Run",
-    "Python.列表和字典.executor": "Run",
-    "Python.变量.executor": "Run",
-    "Python.数据类型.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.01hello world.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01return.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02if.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02name.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02字符串.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03for.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03score_analytics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03变量.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04gemini score_ana_ai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04while.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04数据类型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05 BMI计算器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05猜随机数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06年龄计算器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07工资计算器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.name.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print something.executor&quot;: &quot;Run&quot;,
+    &quot;Python.student_management.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.函数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.列表和字典.executor&quot;: &quot;Run&quot;,
+    &quot;Python.变量.executor&quot;: &quot;Run&quot;,
+    &quot;Python.数据类型.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
