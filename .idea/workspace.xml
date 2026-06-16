@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b74c7e-9043-4b1c-992f-faffe628abb1" name="更改" comment="">
       <changelist_data name="xeno" email="" automatic="false" />
-      <change afterPath="$PROJECT_DIR$/day05/01通讯录系统.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/02通讯录系统-AI-update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day06/01AI个人知识库系统（RAG前置）.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.01AI个人知识库系统（RAG前置）.executor": "Run",
     "Python.01hello world.executor": "Run",
     "Python.01input.executor": "Run",
     "Python.01return.executor": "Run",
