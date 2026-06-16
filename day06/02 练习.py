@@ -14,3 +14,19 @@ fruits.add("banana")
 print(f"新增香蕉后：",fruits)
 fruits.discard("apple")
 print(f"删除苹果后：",fruits)
+
+# 1. 创建一个包含 3 个 Python 知识点的元组
+knowledge_points = ("列表推导式", "装饰器", "上下文管理器")
+print("元组内容:", knowledge_points)
+
+# 2. 尝试修改元组 —— 下面这行会引发 TypeError
+# knowledge_points[0] = "生成器"  # TypeError: 'tuple' object does not support item assignment
+
+# 3. 写一个返回 (最大值, 最小值) 的函数，并用解包接收
+def max_min(numbers):
+    """返回序列中的最大值和最小值"""
+    return max(numbers), min(numbers)
+
+data = [7, 2, 9, 1, 5]
+maximum, minimum = max_min(data)   # 解包接收
+print(f"最大值: {maximum}, 最小值: {minimum}")
