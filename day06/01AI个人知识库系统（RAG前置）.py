@@ -6,7 +6,14 @@ FILE_NAME = "knowledge.json"
 def load_docs():
     try:
       with open(FILE_NAME, "r", encoding="utf-8") as f:
-        return json.load(f)
+        data = json.load(f)
+        seen = set()
+        unique = []
+        for doc in data:
+            if doc["title"] not in seen:
+                seen.add(doc["title"])
+                unique.append(doc)
+        return unique
     except FileNotFoundError:
         #明确指定：只有当文件不存在时，才返回空列表
       return []
@@ -88,7 +95,6 @@ def search_docs(data,query):
         final_results.append(item[1])
 
     return final_results
-print("未找到该文档")
 
 #回答
 def ask_question(data,query):
