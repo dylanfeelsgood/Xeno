@@ -30,3 +30,29 @@ def max_min(numbers):
 data = [7, 2, 9, 1, 5]
 maximum, minimum = max_min(data)   # 解包接收
 print(f"最大值: {maximum}, 最小值: {minimum}")
+
+# 1. 用列表推导式生成 1-20 的偶数列表
+squares = [x for x in range(1,21) if x % 2 == 0]
+print(squares)
+
+#2. 给定 words = ["Python", "AI", "Transformer", "GPU", "RAG"]
+#    用列表推导式筛选出长度大于3的词
+words = ["Python", "AI", "Transformer","GPU","RAG"]
+word_len = [word for word in words if len(word) > 3]
+print(word_len)
+
+## 3. 用字典推导式把上面的词变成 {词: 长度} 的字典
+words = ["Python", "AI", "Transformer","GPU","RAG"]
+word_lenlen = {word: len(word) for word in words}
+print(word_lenlen)
+
+# 4. 挑战：用列表推导式重写你Day02的累加——
+total = sum([i for i in range(0,101)])
+# for i in range(101):
+#     total += i
+# print(f"此时 i的值为{i},累加后 total={total}")
+print("最终的总和是:", total)
+
+#5. 求1+2+...+100的结果（提示：sum() + 列表推导式）
+all_total = sum(range(0,101))
+print("最终的总和是:", all_total)

@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b74c7e-9043-4b1c-992f-faffe628abb1" name="更改" comment="">
       <changelist_data name="xeno" email="" automatic="false" />
+      <change afterPath="$PROJECT_DIR$/day07/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/history.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/test_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06/02 练习.py" beforeDir="false" afterPath="$PROJECT_DIR$/day06/02 练习.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/AI聊天机器人（上下文版RAG）.py" beforeDir="false" afterPath="$PROJECT_DIR$/day06/03面向对象练习.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,6 +52,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.01AI个人知识库系统（RAG前置）.executor": "Run",
     "Python.01hello world.executor": "Run",
@@ -55,6 +67,7 @@
     "Python.03for.executor": "Run",
     "Python.03score_analytics.executor": "Run",
     "Python.03变量.executor": "Run",
+    "Python.03面向对象练习.executor": "Run",
     "Python.04gemini score_ana_ai.executor": "Run",
     "Python.04while.executor": "Run",
     "Python.04数据类型.executor": "Run",
@@ -62,10 +75,15 @@
     "Python.05猜随机数.executor": "Run",
     "Python.06年龄计算器.executor": "Run",
     "Python.07工资计算器.executor": "Run",
+    "Python.api.executor": "Run",
+    "Python.config.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.name.executor": "Run",
     "Python.print something.executor": "Run",
+    "Python.server.executor": "Run",
     "Python.student_management.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.test_api.executor": "Run",
     "Python.函数.executor": "Run",
     "Python.列表和字典.executor": "Run",
     "Python.变量.executor": "Run",
@@ -78,6 +96,37 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="xeno" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day07/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.server" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
